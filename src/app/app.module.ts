@@ -27,7 +27,7 @@ import {MatIconModule} from '@angular/material/icon';
     BrowserAnimationsModule,
     MatCardModule,
     MatListModule,
-    MatIconModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
