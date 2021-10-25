@@ -9,6 +9,8 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { NavComponent } from './components/nav/nav.component';
 
+import {MatGridListModule} from '@angular/material/grid-list'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { NavComponent } from './components/nav/nav.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
