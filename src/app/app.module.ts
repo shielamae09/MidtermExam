@@ -13,6 +13,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatListModule,
     MatIconModule,
     MatGridListModule,
+    MatToolbarModule,
+    MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
